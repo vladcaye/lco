@@ -3,7 +3,6 @@ import './App.css'
 // import { Navbar } from './sections/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
-import { useState } from "react"
 import { motion } from "motion/react"
 
 const links = [
