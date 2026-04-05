@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import './App.css'
 import { Navbar } from './sections/Navbar'
-import { Home } from './sections/Home'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 function App() {
