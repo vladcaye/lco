@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar } from './sections/Navbar'
+// import { Navbar } from './sections/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <>
     <BrowserRouter>
     <main className="min-h-screen w-full max-w-full overflow-x-hidden">
-      <Navbar />
+      {/* <Navbar /> */}
       {/* <Home /> */}
     </main>
     </BrowserRouter>
