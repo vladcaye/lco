@@ -35,6 +35,7 @@ export const Navbar = () => {
     }
 
     return (
+        <>
         <div className="fixed inset-x-0 z-20 backdrop-blur-sm bg-primary/30">
             <div className="mx-auto c-space">
                 <div className="flex items-center justify-between mx-4 py-2 sm:py-0">
@@ -65,5 +66,6 @@ export const Navbar = () => {
                 </motion.div>
             )}
         </div>
+        </>
     )
 }
