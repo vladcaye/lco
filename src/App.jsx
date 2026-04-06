@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { Navbar } from './sections/Navbar'
+// import { Navbar } from './sections/Navbar'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 import { motion } from "motion/react"
@@ -42,7 +42,7 @@ function App() {
   return (
     <>
     <BrowserRouter>
-    <main className="min-h-screen w-full max-w-full overflow-x-hidden">
+    <main className="min-h-screen overflow-x-hidden">
       <div className="fixed inset-x-0 z-20 backdrop-blur-lg bg-primary">
             <div className="mx-auto c-space">
                 <div className="flex items-center justify-between mx-2 py-2 sm:py-0">
