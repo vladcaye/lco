@@ -2,7 +2,6 @@ import { useState } from "react"
 import { motion } from "motion/react"
 
 const links = [
-    { page: "LCO", href: "#" },
     { page: "About", href: "#about" },
     { page: "The Corner Store", href: "#cornerstore" },
     { page: "Contact", href: "#contact" },
@@ -36,13 +35,13 @@ export const Navbar = () => {
     }
 
     return (
-        <div className="fixed inset-x-0 z-20 backdrop-blur-lg bg-primary">
+        <div className="fixed inset-x-0 z-20 backdrop-blur-sm bg-primary/30">
             <div className="mx-auto c-space">
-                <div className="flex items-center justify-between mx-2 py-2 sm:py-0">
+                <div className="flex items-center justify-between mx-4 py-2 sm:py-0">
                     <a href="#hero"
                         onClick={() => setIsOpen(false)}
                         className="text-xl font-bold transition-colors text-white hover:text-white/80">
-                        LE CONE ORANGE
+                        <img src="/assets/logo-sm-white.png" width="40" alt="LCO logo" className="-pt-2 md:pt-2" />
                     </a>
                     <button
                         onClick={() => setIsOpen(!isOpen)}
