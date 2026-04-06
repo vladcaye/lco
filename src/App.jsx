@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-// import { Navbar } from './sections/Navbar'
+import { Navbar } from './sections/Navbar.jsx'
 import { BrowserRouter, Routes, Route } from 'react-router'
 
 import { motion } from "motion/react"
