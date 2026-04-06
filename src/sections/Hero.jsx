@@ -1,29 +1,16 @@
 import { HeroText } from "../components/HeroText"
 import { Suspense } from "react"
-import { Film, Video, Scissors, ArrowRight, Download, PhoneCall, ChevronDown } from "lucide-react"
+import { Film, Video, Scissors, ArrowRight, Download, PhoneCall, ChevronDown, ShoppingCart } from "lucide-react"
 import { useMediaQuery } from "react-responsive"
 // import { easing } from "maath"
 import { Loader } from "../components/Loader"
 import { Button } from "../components/Button"
 import { motion } from "motion/react"
 
-const photos = [
-    { pic: "/assets/photos/clrty-1.png" },
-    { pic: "/assets/photos/clrty-2.png" },
-    { pic: "/assets/photos/clrty-3.png" },
-    { pic: "/assets/photos/clrty-4.png" },
-    { pic: "/assets/photos/clrty-5.png" },
-    { pic: "/assets/photos/clrty-6.png" },
-    { pic: "/assets/photos/clrty-7.png" },
-    { pic: "/assets/photos/clrty-8.png" }
-]
-
 const services = [
-    "Photoshop",
-    "Lightroom",
     "Logo Design",
     "Business Card Design",
-    "Events",
+    "Event Planning",
 ]
 
 const social = [
@@ -104,7 +91,7 @@ export const Hero = () => {
                         <div className="flex flex-wrap justify-center gap-4 animate-fade-in animation-delay-300">
                             <a href="https://online.getsquire.com/book/clrty-studios-pointe-claire" target="_blank">
                                 <Button size="lg">
-                                    SHOP <ArrowRight className="w-5 h-5" />
+                                    SHOP <ShoppingCart className="w-5 h-5" />
                                 </Button>
                             </a>
                             <button className="relative bg-transparent border border-primary
