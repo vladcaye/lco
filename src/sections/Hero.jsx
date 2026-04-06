@@ -14,9 +14,7 @@ const services = [
 ]
 
 const social = [
-    { icon: "Instagram", href: "https://www.instagram.com/cutwithclrty/" },
-    { icon: "Google", href: "https://share.google/aOt9WszLRVBYSU3FK" },
-    { icon: "Tiktok", href: "https://www.tiktok.com/@cutwithclrty/" },
+    { icon: "Instagram", href: "https://instagram.com/leconeorange" },
 ]
 
 export const Hero = () => {
@@ -94,15 +92,6 @@ export const Hero = () => {
                                     SHOP <ShoppingCart className="w-5 h-5" />
                                 </Button>
                             </a>
-                            <button className="relative bg-transparent border border-primary
-                            text-white hover:border-white/50 transition-all duration-100
-                            focus:outline-none focus-visible:ring-2 focus-visible:ring-primary focus-visible::ring-offset-2
-                            disabled:opacity-50 disabled:cursor-not-allowed group px-8 text-lg font-medium rounded-full overflow-visible
-                            z-100">
-                                <span className="text-white relative flex items-center justify-center gap-2">
-                                    <a href="tel:+1234567890">JOIN</a> <PhoneCall className="w-5 h-5" />
-                                </span>
-                            </button>
                         </div>
                         {/* CTA */}
 
