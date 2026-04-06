@@ -12,9 +12,6 @@ function App() {
     <main className="min-h-screen w-full max-w-full overflow-x-hidden">
       <Navbar />
       <Hero />
-      <div className="container w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        Body
-      </div>
     </main>
     </BrowserRouter>
       
