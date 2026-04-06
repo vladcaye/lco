@@ -2,13 +2,13 @@ import { useState } from 'react'
 import './App.css'
 import { Navbar } from './sections/Navbar'
 import { Hero } from './sections/Hero'
-// import { BrowserRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route } from 'react-router'
 
 function App() {
 
   return (
     <>
-    {/* <BrowserRouter> */}
+    <BrowserRouter>
     <main className="min-h-screen w-full max-w-full overflow-x-hidden">
       <Navbar />
       <Hero />
@@ -16,7 +16,7 @@ function App() {
         Body
       </div>
     </main>
-    {/* </BrowserRouter> */}
+    </BrowserRouter>
       
     </>
   )
