@@ -79,10 +79,9 @@ export const Hero = () => {
                     <div className="space-y-8 text-center h-full">
                         {/* Hero */}
                         <div className="space-y-10 md:space-y-0 animate-fade-in animation-delay-100">
-                            <Suspense fallback={<Loader />}>
+                            {/* <Suspense fallback={<Loader />}>
                                 <HeroText />
-                            </Suspense>
-                            
+                            </Suspense> */}
                         </div>
 
                         {/* CTA */}
