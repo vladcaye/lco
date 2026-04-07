@@ -100,7 +100,7 @@ export const Hero = () => {
 
                 {/* Services */}
                 <div className="py-10 md:py-12 animate-fade-in animation-delay-600">
-                    {/* <p className="text-sm text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p> */}
+                    <p className="text-sm py-2 text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p>
                     <div className="relative overflow-hidden">
                         <div className="flex animate-marquee">
                             {[...services, ...services, ...services].map((service, idx) => (
