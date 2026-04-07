@@ -87,7 +87,7 @@ export const Hero = () => {
 
                         {/* CTA */}
                         <div className="flex flex-wrap justify-center gap-4 animate-fade-in animation-delay-300">
-                            <a href="https://online.getsquire.com/book/clrty-studios-pointe-claire" target="_blank">
+                            <a href="https://www.instagram.com/leconeorange" target="_blank">
                                 <Button size="lg">
                                     SHOP <ShoppingCart className="w-5 h-5" />
                                 </Button>
