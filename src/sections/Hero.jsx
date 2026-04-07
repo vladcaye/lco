@@ -21,7 +21,7 @@ const social = [
 ]
 
 export const Hero = () => {
-    const isMobile = useMediaQuery({ maxWidth: 853 })
+    // const isMobile = useMediaQuery({ maxWidth: 853 })
     return (
         <section id="hero" className="flex items-start justify-center 
         md:items-start md:justify-start min-h-screen overflow-x-hidden c-space w-full">
@@ -76,7 +76,7 @@ export const Hero = () => {
 
 
             {/* Content */}
-            <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10">
+            <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-20 z-10">
                 <div className="grid items-center">
                     {/* Content */}
                     <div className="space-y-8 text-center h-full overflow-hidden">
@@ -101,12 +101,12 @@ export const Hero = () => {
                 </div>
 
                 {/* Services */}
-                <div className="mt-10 animate-fade-in animation-delay-600">
-                    <p className="text-sm text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p>
+                <div className="pt-0 pb-0 md:pt-4 md:pb-4 animate-fade-in animation-delay-600">
+                    {/* <p className="text-sm text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p> */}
                     <div className="relative overflow-hidden">
                         <div className="flex animate-marquee">
                             {[...services, ...services, ...services].map((service, idx) => (
-                                <div key={idx} className="text-2xl shrink-0 px-8">
+                                <div key={idx} className="text-4xl shrink-0 px-8">
                                     <div key={idx} className="shrink-0 px-2 py-6">
                                         <span className="w-50 h-50 object-cover opacity-60 hover:opacity-100 hover:text-white transition-colors">{service}</span>
                                     </div>
