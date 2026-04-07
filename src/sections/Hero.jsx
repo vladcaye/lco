@@ -75,27 +75,8 @@ export const Hero = () => {
             {/* Content */}
             <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10">
                 <div className="grid items-center">
-                    {/* Left Column - Text Content */}
-                    <div className="space-y-8 text-center h-full overflow-hidden">
-                        {/* Hero */}
-                        <div className="space-y-10 md:space-y-0 animate-fade-in animation-delay-100">
-                            <Suspense fallback={<Loader />}>
-                                <HeroText />
-                            </Suspense>
-                        </div>
-
-                        {/* CTA */}
-                        {/* <div className="flex flex-wrap justify-center gap-4 animate-fade-in animation-delay-300">
-                            <a href="https://www.instagram.com/leconeorange" target="_blank">
-                                <Button size="lg">
-                                    SHOP <ShoppingCart className="w-5 h-5" />
-                                </Button>
-                            </a>
-                        </div> */}
-                        {/* CTA */}
-
-
-                    </div>
+                    {/* Content */}
+                    
                     {/* Content */}
                 </div>
 
