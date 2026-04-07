@@ -36,7 +36,7 @@ export const Navbar = () => {
 
     return (
         <>
-        <div className="fixed inset-x-0 z-20 backdrop-blur-sm bg-primary">
+        <div className="fixed inset-x-0 z-20 backdrop-blur-lg bg-primary/30">
             <div className="mx-auto c-space">
                 <div className="flex items-center justify-between mx-4 py-2 sm:py-0">
                     <a href="#hero"
