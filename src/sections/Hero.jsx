@@ -21,7 +21,7 @@ export const Hero = () => {
     const isMobile = useMediaQuery({ maxWidth: 853 })
     return (
         <section id="hero" className="flex items-start justify-center 
-        md:items-start md:justify-start min-h-screen overflow-hidden c-space w-full">
+        md:items-start md:justify-start min-h-screen overflow-x-hidden c-space w-full">
             <div className="absolute top-1/2 left-1/2
             w-200 h-200 bg-primary/5
             rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2"
