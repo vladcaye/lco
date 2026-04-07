@@ -19,7 +19,7 @@ const social = [
 ]
 
 export const Hero = () => {
-    const isMobile = useMediaQuery({ maxWidth: 853 })
+    // const isMobile = useMediaQuery({ maxWidth: 853 })
     return (
         <section id="hero" className="flex items-start justify-center 
         md:items-start md:justify-start min-h-screen overflow-x-hidden c-space w-full">
