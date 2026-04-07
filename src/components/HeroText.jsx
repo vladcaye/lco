@@ -63,7 +63,7 @@ export const HeroText = () => {
             </div>
 
             {/* Mobile View */}
-            <div className="flex flex-col mt-15 space-y-6 md:hidden  overflow-x-hidden">
+            <div className="flex flex-col mt-15 space-y-6 md:hidden">
                 <motion.p className="text-4xl font-medium"
                     variants={variants}
                     initial="hidden"
