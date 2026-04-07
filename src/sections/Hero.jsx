@@ -15,13 +15,11 @@ const services = [
 ]
 
 const social = [
-    { icon: "Instagram", href: "https://www.instagram.com/cutwithclrty/" },
-    { icon: "Google", href: "https://share.google/aOt9WszLRVBYSU3FK" },
-    { icon: "Tiktok", href: "https://www.tiktok.com/@cutwithclrty/" },
+    { icon: "Instagram", href: "https://www.instagram.com/leconeorange" }
 ]
 
 export const Hero = () => {
-    // const isMobile = useMediaQuery({ maxWidth: 853 })
+    const isMobile = useMediaQuery({ maxWidth: 853 })
     return (
         <section id="hero" className="flex items-start justify-center 
         md:items-start md:justify-start min-h-screen overflow-x-hidden c-space w-full">
