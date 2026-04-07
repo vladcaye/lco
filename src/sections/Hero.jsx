@@ -73,41 +73,7 @@ export const Hero = () => {
 
 
             {/* Content */}
-            <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10">
-                <div className="grid items-center">
-                    {/* Content */}
-                    
-                    {/* Content */}
-                </div>
-
-                {/* Services */}
-                {/* <div className="mt-10 animate-fade-in animation-delay-600">
-                    <p className="text-sm text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p>
-                    <div className="relative overflow-hidden">
-                        <div className="flex animate-marquee">
-                            {[...services, ...services, ...services].map((service, idx) => (
-                                <div key={idx} className="text-2xl shrink-0 px-8">
-                                    <div key={idx} className="shrink-0 px-2 py-6">
-                                        <span className="w-50 h-50 object-cover opacity-60 hover:opacity-100 hover:text-white transition-colors">{service}</span>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div> */}
-                {/* Services */}
-
-                {/* ChevronDown */}
-                {/* <div className='absolute bottom-8 left-1/2 -translate-x-1/2
-            animate-fade-in animation-delay-800'>
-                    <a
-                        href="#about"
-                        className='flex flex-col items-center gap-2 text-white/60 hover:text-white'>
-                        <span className='text-primary hover:text-white text-sm uppercase tracking-wider'>Scroll</span>
-                        <ChevronDown className='text-primary hover:text-white w-6 h-6 animate-bounce' />
-                    </a>
-                </div> */}
-            </div >
+            
 
 
         </section >
