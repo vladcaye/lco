@@ -1,9 +1,9 @@
 import { BrowserRouter, Routes, Route } from 'react-router'
 import { useState } from 'react'
 import './App.css'
-// import { Navbar, Hero, Home } from './sections'
-import { Navbar } from './sections/Navbar'
-import { Hero } from './sections/Hero'
+import { Navbar, Hero, Home } from './sections'
+// import { Navbar } from './sections/Navbar'
+// import { Hero } from './sections/Hero'
 // import { Home } from './sections/Home'
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
         <main className="min-h-screen w-full max-w-full overflow-x-hidden">
           <Navbar />
           <Hero />
-          {/* <Home /> */}
+          <Home />
         </main>
       </BrowserRouter>
 
