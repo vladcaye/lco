@@ -76,13 +76,13 @@ export const Hero = () => {
             <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10">
                 <div className="grid items-center">
                     {/* Left Column - Text Content */}
-                    <div className="space-y-8 text-center h-full">
+                    <div className="space-y-8 text-center h-full overflow-hidden">
                         {/* Hero */}
-                        {/* <div className="space-y-10 md:space-y-0 animate-fade-in animation-delay-100">
+                        <div className="space-y-10 md:space-y-0 animate-fade-in animation-delay-100">
                             <Suspense fallback={<Loader />}>
                                 <HeroText />
                             </Suspense>
-                        </div> */}
+                        </div>
 
                         {/* CTA */}
                         {/* <div className="flex flex-wrap justify-center gap-4 animate-fade-in animation-delay-300">
