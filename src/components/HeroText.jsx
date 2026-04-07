@@ -85,7 +85,7 @@ export const HeroText = () => {
                             info.tag
                         ))}
                     </motion.p>
-                    <motion.div className="flip-words"
+                    <motion.div className="flip-words pt-2"
                         variants={variants}
                         initial="hidden"
                         animate="visible"
