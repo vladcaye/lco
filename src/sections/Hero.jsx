@@ -73,7 +73,7 @@ export const Hero = () => {
 
 
             {/* Content */}
-            <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10  overflow-x-hidden">
+            <div className="relative container px-5 mx-auto pt-5 md:pt-20 pb-30 z-10">
                 <div className="grid items-center">
                     {/* Left Column - Text Content */}
                     <div className="space-y-8 text-center h-full">
