@@ -9,7 +9,9 @@ function App() {
     <>
       <BrowserRouter>
         <main className="min-h-screen w-full max-w-full overflow-x-hidden">
-          
+          <Navbar />
+          <Hero />
+          <Home />
         </main>
       </BrowserRouter>
 
