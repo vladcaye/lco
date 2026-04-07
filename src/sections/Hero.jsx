@@ -99,7 +99,7 @@ export const Hero = () => {
                 </div>
 
                 {/* Services */}
-                <div className="pt-0 pb-0 md:pt-4 md:pb-4 animate-fade-in animation-delay-600">
+                <div className="py-10 md:py-12 animate-fade-in animation-delay-600">
                     {/* <p className="text-sm text-white/60 hover:text-white text-center uppercase">WHAT WE DO</p> */}
                     <div className="relative overflow-hidden">
                         <div className="flex animate-marquee">
